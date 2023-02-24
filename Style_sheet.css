@@ -1,0 +1,232 @@
+.container{
+  display: grid;
+  width: 100%;
+  height: 100%;
+  grid-template-columns: 100%;
+  grid-template-rows: 200px 500px 150px;
+  grid-template-areas: 
+      "header"
+      "content-1"
+      "footer";
+}
+.header {
+  grid-area: header;
+  background-color: lightgray
+}
+.content-1{
+    grid-area: content-1;
+    background-image: url("images/pg1000.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.learnmore{
+    text-decoration: none;
+    border: 1px solid black;
+    color: black;
+        margin-right: 30px;
+    padding: 10px 15px 10px ;
+    font-size: 40px;
+}
+.footer{
+    grid-area: footer;
+    background-color: lightgray;
+    display: flex;
+}
+.logo{
+    width: 300px;
+    padding-top: 30px;
+}
+.button1{
+    margin-right: 30px;
+    padding: 10px 15px 10px ;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+}
+.nav{
+    display: flex;
+    float: right;
+    margin-right: 650px;
+    padding-top: 120px;
+}
+.copy{
+    text-align: center;
+}
+.made{
+    text-align: center;
+    
+}
+.socialmedia{
+    padding-top: 30px;
+    display: flex;
+    padding-left: 700px;
+}
+.cp{
+    padding-left: 700px;
+    padding-top: 20px;
+}
+.welcome{
+    font-size: 30px;
+}
+.welcome1{
+    font-size: 50px;
+}
+.container1{
+  display: grid;
+  width: 100%;
+  height: 100%;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 200px 600px 600px 150px;
+  grid-template-areas: 
+      "header header"
+      "contentab content2"
+      "content3 content3"
+      "footer footer";
+}
+.contentab{
+    grid-area: contentab;
+}
+.content2{
+    grid-area: content2;
+}
+.content3{
+    grid-area: content3;
+}
+.aboutimg{
+    height: 600px;
+    width: 900px;
+}
+.About{
+    font-size: 50px;
+}
+.abouttxt{
+    font-size: 35px;
+}
+.OurTeam{
+    text-align: center;
+    font-size: 40px;
+    
+}
+.teampic{
+    display: flex;
+    justify-content: space-between;
+}
+.teammem{
+    text-align: center;
+}
+.imgperson{
+    border-radius: 50%;
+}
+.container2{
+ display: grid;
+  width: 100%;
+  height: 100%;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 200px 600px 150px;
+  grid-template-areas: 
+      "header header"
+      "contentjb contentjbI"
+      "footer footer";
+  }
+  .container2{
+      border: 1px solid black;
+  }
+  .contentjb{
+      grid-area: contentjb;
+  }
+  .contentjbI{
+      grid-area: contentjbI;
+  }
+  .jobsH{
+      font-size: 50px;
+  }
+  .jobsimg{
+       height: 600px;
+       width: 950px;
+  }
+  .jobscontent{
+      font-size: 30px;
+  }
+  .Applynow1{
+    text-decoration: none;
+    border: 1px solid black;
+    color: black;
+    margin-right: 30px;
+    margin-left: 30px;
+    padding: 5px 15px 10px ;
+    font-size: 40px;
+  }
+  .container3{
+      display: grid;
+  width: 100%;
+  height: 100%;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 200px 600px 150px;
+  grid-template-areas: 
+      "header header"
+      "courses1 courses1"
+      "footer footer";
+  }
+  .courses1{
+      grid-area: courses1;
+      background-image: url("images/coursesimg4.webp");
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+  .coursesH{
+      color: white; 
+  }
+  .link{
+    text-decoration: none;
+    border: 1px solid white;
+    color: white;
+    padding: 10px 15px 10px ;
+    font-size: 40px;
+    margin-left: 40px;
+  }
+  .container4{
+  display: grid;
+  width: 100%;
+  height: 100%;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 200px 600px 150px;
+  grid-template-areas: 
+      "header header"
+      "application12 application12"
+      "footer footer";
+  }
+  .applicationform{
+      text-align: center;
+  }
+  .enter{
+      margin-bottom: 30px;
+      align-items: center;
+      padding-top: 40px;
+  }
+  .enter input{
+      width: 60%;
+      padding: 20px;
+      margin-bottom: 16px;
+      display:block;
+  }
+  .enter textarea{
+      width: 60%;
+      padding: 20px;
+      margin-bottom: 16px;
+  }
+ 
+      
+  
+  .nav-r ul li{
+      display: inline-flex;
+      padding: 8px 12px;
+      position: relative;
+  }
+  .submit{
+       margin-right: 30px;
+    padding: 10px 15px 10px ;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+  }
